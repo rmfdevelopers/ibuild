@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+    font-family: var(--font-sans);
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto p-4;
+  }
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: #4E342E;
+  }
+  .bg-secondary {
+    background-color: #D7CCC8;
+  }
+  .bg-accent {
+    background-color: #BF360C;
+  }
+}
